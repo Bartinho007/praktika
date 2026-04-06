@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Практика безопасных сделок</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+  <div class="container header-inner">
+     <a href="/" class="brand-logo">
+      <img src="assets/logo.png" alt="Практика безопасных сделок" class="brand-mark">
+      <p>(Тестовый логотип)</p>
+    </a>
+
+     <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+
+    <div class="nav-wrapper">
+      <nav class="nav">
+        <ul>
+          <li><a href="#questions">С чем и для кого мы работаем</a></li>
+          <li><a href="#team">Команда сделки</a></li>
+          <li><a href="#process">Как работаем</a></li>
+          <li><a href="#auction">Аукционный метод</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <a href="#contacts" class="btn btn-accent">Заказать звонок</a>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="hero-badge">Продажа - проверка - покупка - аренда</div>
+          <h1 class="title-xl" style="margin-top:20px; max-width:640px;">Безопасные сделки с жилой и коммерческой недвижимостью.</h1>
+          <p class="lead" style="margin-top:22px; max-width:700px;">Вы приходите с конкретными задачами, потерями, рисками, а мы берем на себя решение и доводим до нужного результата.</p>
+          <p class="muted" style="margin-top:20px; max-width:760px;">Вы не остаетесь один на один с объектом, покупателями, документами и показами. Мы берем всю работу на себя и ведем сделку до результата.</p>
+        </div>
+
+        <div class="hero-card">
+          <img src="assets/comm_prop.jpg" alt="Жилая недвижимость">
+        </div>
+      </div>
+    </section>
+
+   <section id="questions" class="section">
+  <div class="container">
+    <div class="eyebrow">С чем и для кого мы работаем</div>
+    <h2 class="title-lg" style="max-width:980px;">Жилая и коммерческая недвижимость - с акцентом на защиту интересов клиента, контроль условий и юридическую надежность.</h2>
+    <p class="muted" style="margin-top:22px; max-width:980px;">Прозрачный процесс, в котором вы понимаете, на каком этапе находитесь и что будет дальше.</p>
+
+    <div class="panel" style="margin-top:34px;">
+      <div class="split">
+        <!-- Жилая недвижимость -->
+        <div class="split-item">
+          <img class="split-img" src="assets/private_prop.jpg" alt="Жилая недвижимость">
+          <div class="split-col">
+            <div class="eyebrow">Жилая недвижимость</div>
+            <h3 class="title-md">Для частных клиентов, которым нужен понятный и безопасный путь в сделке.</h3>
+            <div class="scope-list">
+              <div class="list-card"><div class="dot"></div><div>Квартиры, апартаменты, дома, таунхаусы</div></div>
+              <div class="list-card"><div class="dot"></div><div>Продажа, покупка, проверка объекта и сопровождение сделки</div></div>
+              <div class="list-card"><div class="dot"></div><div>Сложные случаи: доли, наследство, ипотека, маткапитал, доверенности, перепланировки</div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Коммерческая недвижимость -->
+        <div class="split-item">
+          <img class="split-img" src="assets/office.png" alt="Коммерческая недвижимость">
+          <div class="split-col">
+            <div class="eyebrow">Коммерческая недвижимость</div>
+            <h3 class="title-md">Для бизнеса и инвестиций, где важны цифры, условия, доходность и контроль риска.</h3>
+            <div class="scope-list">
+              <div class="list-card"><div class="dot"></div><div>Офисы, помещения, торговые площади, объекты под арендный бизнес</div></div>
+              <div class="list-card"><div class="dot"></div><div>Продажа, покупка, аренда, проверка и сопровождение коммерческих сделок</div></div>
+              <div class="list-card"><div class="dot"></div><div>Акцент на доходность, условия, структуру сделки, риски и инвестиционный результат</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Общий блок вопросов снизу (симметрично) -->
+      <div class="questions-panel">
+        <div class="questions-split">
+          <div class="questions-col">
+            <details class="dropdown">
+              <summary>Частые вопросы по жилой недвижимости <span class="plus">+</span></summary>
+              <div class="dropdown-body">
+                <div class="question-list">
+                  <div class="list-card"><div class="dot"></div><div>Не понимаете, сколько реально стоит объект и от чего зависит цена?</div></div>
+                  <div class="list-card"><div class="dot"></div><div>Боитесь купить или продать объект со скрытыми рисками?</div></div>
+                  <div class="list-card"><div class="dot"></div><div>Не хотите потерять деньги на авансе, задатке или расчетах?</div></div>
+                  <div class="list-card"><div class="dot"></div><div>У вас сложная ситуация: наследство, доли, ипотека, маткапитал, доверенность, перепланировка?</div></div>
+                  <div class="list-card"><div class="dot"></div><div>Нужен понятный процесс, чтобы не разбираться самостоятельно в документах и этапах сделки?</div></div>
+                  <div class="list-card"><div class="dot"></div><div>Хотите пройти сделку спокойно, с контролем сроков, условий и результата?</div></div>
+                </div>
+              </div>
+            </details>
+          </div>
+          
+          <div class="questions-col">
+            <details class="dropdown">
+              <summary>Частые вопросы по коммерческой недвижимости <span class="plus">+</span></summary>
+              <div class="dropdown-body">
+                <div class="question-list">
+                  <div class="list-card"><div class="dot"></div><div>Нужно оценить объект как бизнес-актив или инвестицию?</div></div>
+                  <div class="list-card"><div class="dot"></div><div>Важно проверить доходность, условия аренды, окупаемость и юридическую конструкцию?</div></div>
+                  <div class="list-card"><div class="dot"></div><div>Нужны сильные переговоры по цене, срокам, обеспечительным условиям и расчетам?</div></div>
+                  <div class="list-card"><div class="dot"></div><div>Требуется сопровождение покупки, продажи или аренды коммерческого объекта под задачи бизнеса?</div></div>
+                  <div class="list-card"><div class="dot"></div><div>Важно не пропустить риски объекта, договора, арендатора, собственника или схемы расчетов?</div></div>
+                  <div class="list-card"><div class="dot"></div><div>Нужен контролируемый процесс сделки с акцентом на бизнес-интерес и инвестиционный результат?</div></div>
+                </div>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="team" class="section">
+      <div class="container">
+        <div class="eyebrow">Команда сделки</div>
+        <h2 class="title-lg" style="max-width:980px;">Подключаем сильных специалистов там, где они реально усиливают продажу объекта и безопасность сделки.</h2>
+        <div class="cards-4" lang="ru">
+          <div class="card"><div class="card-index">1</div><h3 class="title-sm">Куратор сделки</h3><p class="small">Руководит процессом: стратегия, реклама, показы, переговоры и организация сделки.</p></div>
+          <div class="card"><div class="card-index">2</div><h3 class="title-sm">Оценщик недвижимости</h3><p class="small">Определяет рыночную стоимость объекта и помогает выбрать корректную цену выхода в продажу.</p></div>
+          <div class="card"><div class="card-index">3</div><h3 class="title-sm">Подготовка квартиры</h3><p class="small">Мелкий ремонт, строительные работы, сборка мебели и устранение визуальных недостатков перед продажей.</p></div>
+          <div class="card"><div class="card-index">4</div><h3 class="title-sm">Клининг</h3><p class="small">Подготовка квартиры к показам и уборка после работ, переезда или освобождения объекта.</p></div>
+          <div class="card"><div class="card-index">5</div><h3 class="title-sm">Профессиональный фотограф</h3><p class="small">Создает сильное первое впечатление и усиливает рекламную подачу объекта.</p></div>
+          <div class="card"><div class="card-index">6</div><h3 class="title-sm">Хоумстейджинг</h3><p class="small">Помогает подготовить интерьер так, чтобы объект выглядел сильнее и продавался быстрее.</p></div>
+          <div class="card"><div class="card-index">7</div><h3 class="title-sm">Юрист / налоговый консультант</h3><p class="small">Проверяет документы, структуру сделки, защищает интересы клиента и разбирает налоговые последствия продажи, аренды или владения объектом.</p></div>
+          <div class="card"><div class="card-index">8</div><h3 class="title-sm">Маркетолог</h3><p class="small">Отвечает за продвижение объекта, рекламную подачу и привлечение внимания рынка, что особенно важно при аукционном методе продажи.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section">
+      <div class="container">
+        <div class="eyebrow">Как работаем</div>
+        <h2 class="title-lg" style="max-width:920px;">Прозрачный процесс, в котором вы понимаете, на каком этапе находитесь и что будет дальше.</h2>
+        <p class="muted" style="margin-top:22px; max-width:860px;">Каждая стадия сделки понятна заранее: от первичной оценки ситуации и проверки объекта до переговоров, расчетов и финального результата.</p>
+        <div class="cards-5">
+          <div class="card-soft"><div class="step-index">1</div><h3 style="margin-top:16px;" class="title-sm">Разбираем задачу и сам объект</h3><p class="small">Понимаем цель продажи, сроки, ограничения, документы и потенциальные риски.</p></div>
+          <div class="card-soft"><div class="step-index">2</div><h3 style="margin-top:16px;" class="title-sm">Проверяем объект и готовим к сделке</h3><p class="small">Выявляем слабые места заранее, чтобы не терять покупателя на позднем этапе.</p></div>
+          <div class="card-soft"><div class="step-index">3</div><h3 style="margin-top:16px;" class="title-sm">Упаковываем объект и выстраиваем стратегию</h3><p class="small">Позиционирование, цена, логика показов, рекламная подача и сценарий переговоров.</p></div>
+          <div class="card-soft"><div class="step-index">4</div><h3 style="margin-top:16px;" class="title-sm">Находим клиентов и фиксируем договоренности безопасно</h3><p class="small">Задаток, сроки, расчеты, условия сделки и распределение рисков документально и под контролем.</p></div>
+          <div class="card-soft"><div class="step-index">5</div><h3 style="margin-top:16px;" class="title-sm">Сопровождаем до получения денег и передачи объекта</h3><p class="small">Документы, расчеты, регистрация и контроль финального результата.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="auction" class="section">
+      <div class="container">
+        <div class="eyebrow">Аукционный метод продаж</div>
+        <h2 class="title-lg" style="max-width:980px;">Почему этот подход выбирают, когда рынок падает, стоит на месте или покупатели давят на цену.</h2>
+        <p class="muted" style="margin-top:22px; max-width:980px;">На слабом рынке проблема не только в цене. Главная проблема - рассеянный спрос, длинные переговоры и постоянное движение продавца вниз. Аукционный метод помогает собрать интерес в одной точке, ускорить решение и продавать из более сильной позиции.</p>
+        <div class="cards-4">
+          <div class="card"><div class="card-icon">↑</div><h3 class="title-sm">Создает конкуренцию между покупателями</h3><p class="small">Объект не висит в рынке месяцами. Правильная подача и ограниченные сроки концентрируют спрос и усиливают интерес.</p></div>
+          <div class="card"><div class="card-icon">↓</div><h3 class="title-sm">Помогает избежать длительного торга вниз</h3><p class="small">На стагнирующем или падающем рынке покупатели часто давят на цену. Аукционный подход собирает предложения в одном окне и удерживает позицию продавца.</p></div>
+          <div class="card"><div class="card-icon">⌛</div><h3 class="title-sm">Ускоряет принятие решения</h3><p class="small">Когда у сделки есть понятный сценарий, сроки и правила, покупатель быстрее принимает решение и реже уходит в бесконечное сравнение.</p></div>
+          <div class="card"><div class="card-icon">✓</div><h3 class="title-sm">Дает продавцу контроль и прозрачность</h3><p class="small">Понятно, кто пришел, на каких условиях делает предложение и как безопасно зафиксировать договоренности.</p></div>
+        </div>
+
+        <div class="card auction-benefit">
+          <div class="eyebrow" style="margin-bottom:0;">Что это дает продавцу</div>
+          <h3 class="title-md" style="max-width:900px; margin-top:16px;">Аукционный подход помогает не просто рекламировать объект, а управлять спросом, удерживать позицию в переговорах и быстрее выводить сделку к результату.</h3>
+          <div class="benefit-list cards-2" style="margin-top:24px;">
+            <div class="list-card"><div class="dot"></div><div>Объект не превращается в уставшее объявление, которое месяцами стоит в рекламе и постепенно теряет переговорную силу.</div></div>
+            <div class="list-card"><div class="dot"></div><div>Продавец получает не затяжной торг с каждым новым интересантом, а понятный сценарий, сроки и более сильную рыночную реакцию.</div></div>
+            <div class="list-card"><div class="dot"></div><div>На слабом рынке особенно важно не просто снижать цену, а грамотно управлять спросом, показами, офферами и скоростью принятия решения.</div></div>
+            <div class="list-card"><div class="dot"></div><div>В результате продавец получает более сильную позицию в переговорах, контролируемый сценарий продажи и лучший шанс выйти на максимальную цену рынка в текущих условиях.</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="eyebrow">FAQ</div>
+        <h2 class="title-lg" style="max-width:920px;">Частые вопросы, с которыми приходят до первого звонка.</h2>
+        <p class="muted" style="margin-top:22px; max-width:860px;">Если ваш случай сложнее стандартного - это не проблема. Как раз в таких ситуациях и раскрывается ценность правильного сценария сделки.</p>
+        <div class="cards-2">
+          <div class="card"><h3 class="title-sm">Вы работаете только с продажей?</h3><p class="small">Нет. Мы работаем по четырем направлениям: продажа, проверка, покупка и аренда - в жилой и коммерческой недвижимости.</p></div>
+          <div class="card"><h3 class="title-sm">Можно обратиться только за проверкой объекта или договора?</h3><p class="small">Да. Не обязательно заказывать полное сопровождение. Можно зайти с точечной задачей и затем расширить формат работы.</p></div>
+          <div class="card"><h3 class="title-sm">Берете ли вы сложные объекты и нестандартные ситуации?</h3><p class="small">Да. Именно там особенно важны стратегия, сильные переговоры и правильная структура сделки.</p></div>
+          <div class="card"><h3 class="title-sm">Можно ли подключить вас уже после того, как объект найден?</h3><p class="small">Да. Часто клиенты приходят именно на этом этапе: когда уже есть объект, но нужна проверка, переговоры и безопасный сценарий сделки.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="section section-soft">
+      <div class="container">
+        <div class="cta-wrap">
+          <div class="cta-main">
+            <div class="eyebrow" style="color:#ffd8af;">Финальный CTA</div>
+            <h2 class="title-lg" style="max-width:760px; color:#fff;">Обсудим объект, задачу и предложим понятный сценарий работы под ваш случай.</h2>
+            <p class="muted" style="margin-top:44px; max-width:720px; color:rgba(255,255,255,.85);">Жилая и коммерческая недвижимость. Продажа, проверка, покупка и аренда - с контролем результата.</p>
+          </div>
+
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+          <div class="cta-side">
+            <div class="form-card">
+              <h3 class="title-md">Обсудим вашу задачу</h3>
+              <p style="margin-bottom: 20px;">Расскажите коротко о ситуации - предложим следующий шаг и безопасный формат работы.</p>
+          
+              <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                  <label for="name">Имя*</label>
+                  <input type="text" id="name" name="name" class="input" placeholder="Введите ваше имя" required>
+                </div>
+              
+                <div class="form-group">
+                  <label for="phone">Телефон*</label>
+                  <input type="tel" id="phone" name="phone" class="input phone-mask" placeholder="+7 (___) ___-__-__" required>
+                </div>
+              
+                <div class="form-group">
+                  <label for="email">Email*</label>
+                  <input type="email" id="email" name="email" class="input" placeholder="name@example.ru" required>
+                </div>
+              
+                <div class="form-group">
+                  <label for="tg">Telegram</label>
+                  <input type="text" id="tg" name="tg" class="input tg-mask" placeholder="@username">
+                </div>
+              
+                <div class="form-group">
+                  <label for="object">Что планируете</label>
+                  <input type="text" id="object" name="object" class="input" placeholder="продать / проверить / купить / арендовать">
+                </div>
+              
+                <div class="form-group">
+                  <label for="message">Описание задачи</label>
+                  <textarea id="message" name="message" class="input textarea" rows="3"
+                    placeholder="Кратко опишите задачу или ситуацию"></textarea>
+                </div>
+              
+                <button type="submit" class="btn btn-accent btn-full" style="border: none; cursor: pointer; font-size: medium;">Получить консультацию</button>
+              </form>
+          
+              <div class="form-status"></div>
+          
+              <!-- Telegram ссылка -->
+              <!-- <div class="telegram-direct" style="margin-top: 20px;">
+                <a href="https://t.me/YOUR_BOT_USERNAME" class="telegram-link" target="_blank">
+                  📱 Или напишите в Telegram
+                </a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>Практика безопасных сделок</div>
+        <div>Жилая и коммерческая недвижимость. Продажа. Проверка. Покупка. Аренда.</div>
+      </div>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
