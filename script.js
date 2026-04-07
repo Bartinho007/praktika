@@ -75,7 +75,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
         email: formData.get('email'),
         tg: formData.get('tg'),
         tg_no_at: (formData.get('tg') || '').replace(/^@/, ''),
-        object: formData.get('object') || '',
+        // object: formData.get('object') || '',
         message: formData.get('message') || ''
     })
         .then(function () {
